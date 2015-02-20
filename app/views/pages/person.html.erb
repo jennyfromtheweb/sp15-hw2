@@ -1,0 +1,17 @@
+<center><br><br>
+
+<h2>Introduction</h2>
+<%= @person.introduce() %>
+
+<br><br>
+
+<h2>Birth Year</h2>
+<% @byear = @person.birth_year() %>
+<%= @byear %> (or <%= @byear - 1 %>)
+
+<br><br>
+
+<h2>Nickname</h2>
+<%= @person.nickname() %>
+
+</center>
